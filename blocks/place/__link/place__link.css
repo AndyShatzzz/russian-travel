@@ -9,19 +9,11 @@
 
 .place__link:hover {
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 1s ease;
 }
 
 @media screen and (max-width: 725px) {
-    .place__link {
-        font-size: 18px;
-        line-height: 22px;
-        padding-left: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .place__link {
         font-size: 18px;
         line-height: 22px;
